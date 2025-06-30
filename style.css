@@ -183,3 +183,47 @@ header {
   color: red;
   opacity: 50%;
 }
+
+@media screen and (max-width: 428px) {
+  header {
+    padding: 0 10px;
+  }
+  .header-left button {
+    display: none;
+  }
+  .header-right a {
+    font-size: 12px;
+    padding: 0 5px;
+  }
+
+  .hero-info {
+    top: 60px;
+    left: 5%;
+  }
+
+  .hero-info .papa,
+  .tagline {
+    font-size: 50px;
+    font-weight: bold;
+  }
+
+  .hero-section h1 {
+    font-size: 90px;
+  }
+  .next-btn {
+    left: 25%;
+    top: 40%;
+  }
+
+  .title-4 {
+    padding-right: 35px;
+    font-size: 16px;
+    right: 0px;
+    bottom: 60px;
+  }
+  .clicked {
+    padding: 10px;
+    left: 0;
+    bottom: 150px;
+  }
+}
